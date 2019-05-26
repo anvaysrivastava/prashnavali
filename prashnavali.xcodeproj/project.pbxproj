@@ -14,6 +14,7 @@
 		91E7EBDA229AE5D000113F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E7EBD8229AE5D000113F91 /* LaunchScreen.storyboard */; };
 		91E7EBE5229AE5D000113F91 /* prashnavaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7EBE4229AE5D000113F91 /* prashnavaliTests.swift */; };
 		91E7EBF0229AE5D100113F91 /* prashnavaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7EBEF229AE5D100113F91 /* prashnavaliUITests.swift */; };
+		91E7EBFE229AECDB00113F91 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 91E7EBFD229AECDB00113F91 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		91E7EBEB229AE5D100113F91 /* prashnavaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prashnavaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E7EBEF229AE5D100113F91 /* prashnavaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prashnavaliUITests.swift; sourceTree = "<group>"; };
 		91E7EBF1229AE5D100113F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E7EBFD229AECDB00113F91 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				91E7EBD6229AE5D000113F91 /* Assets.xcassets */,
 				91E7EBD8229AE5D000113F91 /* LaunchScreen.storyboard */,
 				91E7EBDB229AE5D000113F91 /* Info.plist */,
+				91E7EBFD229AECDB00113F91 /* data.json */,
 			);
 			path = prashnavali;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				91E7EBDA229AE5D000113F91 /* LaunchScreen.storyboard in Resources */,
 				91E7EBD7229AE5D000113F91 /* Assets.xcassets in Resources */,
 				91E7EBD5229AE5CF00113F91 /* Main.storyboard in Resources */,
+				91E7EBFE229AECDB00113F91 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
