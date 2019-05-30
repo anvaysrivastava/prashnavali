@@ -9,15 +9,49 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+    
 
-
+    
     @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var pickerView: UIPickerView!
+    
+    let foods = ["1","2","3","4","5","6","7"]
+    var rotation: CGFloat = CGFloat(-90 * (Double.pi/180))
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return foods.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        textLabel.text = foods[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+    
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: textLabel.frame.width, height: textLabel.frame.height))
+        label.text = foods[row]
+        label.transform = CGAffineTransform(rotationAngle: -1*rotation)
+        return label
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // Setup horizontal pickerView
+        var frame = pickerView.frame
+    
+        pickerView.transform = CGAffineTransform(rotationAngle: rotation)
+        pickerView.frame = frame
+        
+        //Fetch data
         if let path = Bundle.main.path(forResource: "data", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
