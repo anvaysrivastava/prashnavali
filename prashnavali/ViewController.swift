@@ -46,7 +46,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         // Do any additional setup after loading the view.
         
         // Setup horizontal pickerView
-        var frame = pickerView.frame
+        let frame = pickerView.frame
     
         pickerView.transform = CGAffineTransform(rotationAngle: rotation)
         pickerView.frame = frame
