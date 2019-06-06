@@ -25,20 +25,19 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return foods.count
+        return Int(INT16_MAX)
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        textLabel.text = foods[row]
+        textLabel.text = foods[row % foods.count]
     }
     
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
     
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: textLabel.frame.width, height: textLabel.frame.height))
-        label.text = foods[row]
+        label.text = foods[row % foods.count]
         label.transform = CGAffineTransform(rotationAngle: -1*rotation)
         return label
-        
     }
     
     override func viewDidLoad() {
