@@ -20,7 +20,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var conclusionDescription: UILabel!
     @IBOutlet weak var conclusionLabel: UILabel!
     
-    var shlokas: Array<AnyObject>!
+    var tableCharacters: Array<AnyObject>!
+    var shlokas: AnyObject!
     var rotation: CGFloat = CGFloat(-90 * (Double.pi/180))
     var isRotationOn = false
     var pickerNumber = 1
@@ -32,6 +33,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             startButton.setTitle("शुरूवात करें।", for: UIControl.State.normal)
             timer.invalidate()
             displayAkshar()
+            displayShloka(shlokaId: tableCharacters[ pickerNumber % tableCharacters.count]["shlokaId"] as! String)
         } else {
             isRotationOn = true
             startButton.setTitle("निर्णय दिखाएँ।", for: UIControl.State.normal)
@@ -39,16 +41,35 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         }
     }
     
+    func displayShloka(shlokaId: String){
+        let shloka = shlokas![shlokaId] as AnyObject
+        let phal = shloka["fhal"] as! String
+        let shlokaArray = shloka["shloka"] as! Array<String>
+        
+        shloka1.text = shlokaArray[0]
+        shloka1.isHidden = false
+        shloka2.text = shlokaArray[1]
+        shloka2.isHidden = false
+        
+        shlokaDescription.isHidden = false
+        
+        conclusionDescription.isHidden = false;
+        conclusionLabel.text = phal
+        conclusionLabel.isHidden = false;
+        
+    
+    }
+    
     func displayAkshar(){
-        let first: String = shlokas[ pickerNumber % shlokas.count]["key"] as! String
-        var followupKeys: Array<String> = shlokas[ pickerNumber % shlokas.count]["followupKeys"] as! Array<String>
+        let first: String = tableCharacters[ pickerNumber % tableCharacters.count]["key"] as! String
+        var followupKeys: Array<String> = tableCharacters[ pickerNumber % tableCharacters.count]["followupKeys"] as! Array<String>
         pickedCharLabel.text = String(format: "आपके अक्षर हैं %@ %@ %@ ", first, followupKeys[0], followupKeys[1])
         pickedCharLabel.isHidden = false
     }
     
     @objc public func movePicker(){
         pickerNumber = pickerNumber + Int.random(in: 0 ..< 10)
-        _ = shlokas[pickerNumber % shlokas.count]["key"] as! String
+        _ = tableCharacters[pickerNumber % tableCharacters.count]["key"] as! String
         pickerView.selectRow(pickerNumber, inComponent: 0, animated: true)
     }
     
@@ -62,9 +83,9 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
-    
+        
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
-        label.text = shlokas[row % shlokas.count]["key"] as? String
+        label.text = tableCharacters[row % tableCharacters.count]["key"] as? String
         label.textAlignment = NSTextAlignment.center
         label.transform = CGAffineTransform(rotationAngle: -1*rotation)
         return label
@@ -84,19 +105,29 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         // Setup horizontal pickerView
         let frame = pickerView.frame
-    
+        
         pickerView.transform = CGAffineTransform(rotationAngle: rotation)
         pickerView.frame = frame
         
         //Fetch data
-        if let path = Bundle.main.path(forResource: "data", ofType: "json") {
+        if let path = Bundle.main.path(forResource: "table", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                 if let jsonResult = jsonResult as? Array<AnyObject> {
                     // do stuff
-                    shlokas = jsonResult
+                    tableCharacters = jsonResult
                 }
+            } catch {
+                // handle error
+            }
+        }
+        
+        if let path = Bundle.main.path(forResource: "shloka", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                shlokas = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as AnyObject
+                
             } catch {
                 // handle error
             }
