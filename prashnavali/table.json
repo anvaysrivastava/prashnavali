@@ -1,19 +1,1802 @@
-
 [
     {
-        "key": "सु ",
+        "key": "सु",
         "followupKeys": [
-            "नु ",
-            "सि "
+            "नु",
+            "सि"
         ],
-        "shlokaId": "1"
+        "shlokaId": "3"
     },
     {
-        "key": "र ",
+        "key": "प्र",
         "followupKeys": [
-            "नु ",
-            "सि "
+            "बि",
+            "सि"
         ],
-        "shlokaId": "2"
+        "shlokaId": "3"
+    },
+    {
+        "key": "उ",
+        "followupKeys": [
+            "घ",
+            "रहिं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "बि",
+        "followupKeys": [
+            "धि",
+            "बस"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हो",
+        "followupKeys": [
+            "इ",
+            "हि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मु",
+        "followupKeys": [
+            "द",
+            "मं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ग",
+        "followupKeys": [
+            "र",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ब",
+        "followupKeys": [
+            "रु",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सु",
+        "followupKeys": [
+            "फ",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नु",
+        "followupKeys": [
+            "सि",
+            "य"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "बि",
+        "followupKeys": [
+            "सि",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "घ",
+        "followupKeys": [
+            "रहिं",
+            "अं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "धि",
+        "followupKeys": [
+            "बस",
+            "सुज"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "इ",
+        "followupKeys": [
+            "हि",
+            "सो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "द",
+        "followupKeys": [
+            "मं",
+            "ग"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "ल",
+            "सु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रु",
+        "followupKeys": [
+            "न",
+            "कु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "फ",
+        "followupKeys": [
+            "ल",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सि",
+        "followupKeys": [
+            "य",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सि",
+        "followupKeys": [
+            "न",
+            "ग"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रहिं",
+        "followupKeys": [
+            "अं",
+            "त"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "बस",
+        "followupKeys": [
+            "सुज",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हि",
+        "followupKeys": [
+            "सो",
+            "इ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मं",
+        "followupKeys": [
+            "ग",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "सु",
+            "धा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "कु",
+            "बे"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "म",
+            "नो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "य",
+        "followupKeys": [
+            "स",
+            "त्य"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "ग",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "अं",
+        "followupKeys": [
+            "त",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सुज",
+        "followupKeys": [
+            "न",
+            "कु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सो",
+        "followupKeys": [
+            "इ",
+            "जो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ग",
+        "followupKeys": [
+            "ल",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सु",
+        "followupKeys": [
+            "धा",
+            "रि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "कु",
+        "followupKeys": [
+            "बे",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "नो",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "त्य",
+            "अ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ग",
+        "followupKeys": [
+            "र",
+            "की"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "त",
+        "followupKeys": [
+            "न",
+            "हो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "कु",
+            "सं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "इ",
+        "followupKeys": [
+            "जो",
+            "रा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "म",
+            "य"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "धा",
+        "followupKeys": [
+            "रि",
+            "पु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "बे",
+        "followupKeys": [
+            "र",
+            "सु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नो",
+        "followupKeys": [
+            "र",
+            "थ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "त्य",
+        "followupKeys": [
+            "अ",
+            "सी"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "की",
+            "जे"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "हो",
+            "इ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "कु",
+        "followupKeys": [
+            "सं",
+            "ग"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जो",
+        "followupKeys": [
+            "रा",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "य",
+            "सं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रि",
+        "followupKeys": [
+            "पु",
+            "क"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "सु",
+            "रे"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "थ",
+            "हो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "अ",
+        "followupKeys": [
+            "सी",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "की",
+        "followupKeys": [
+            "जे",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हो",
+        "followupKeys": [
+            "इ",
+            "नि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सं",
+        "followupKeys": [
+            "ग",
+            "त"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रा",
+        "followupKeys": [
+            "म",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "य",
+        "followupKeys": [
+            "सं",
+            "त"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "पु",
+        "followupKeys": [
+            "क",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सु",
+        "followupKeys": [
+            "रे",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "थ",
+        "followupKeys": [
+            "हो",
+            "हुँ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सी",
+        "followupKeys": [
+            "स",
+            "ह"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जे",
+        "followupKeys": [
+            "स",
+            "ब"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "इ",
+        "followupKeys": [
+            "नि",
+            "ब"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ग",
+        "followupKeys": [
+            "त",
+            "प"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "र",
+            "चि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सं",
+        "followupKeys": [
+            "त",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "क",
+        "followupKeys": [
+            "र",
+            "हिं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रे",
+        "followupKeys": [
+            "स",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हो",
+        "followupKeys": [
+            "हुँ",
+            "तु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "ह",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "ब",
+            "का"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नि",
+        "followupKeys": [
+            "ब",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "त",
+        "followupKeys": [
+            "प",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "चि",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "त",
+        "followupKeys": [
+            "स",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "हिं",
+            "मि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "स",
+            "मी"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हुँ",
+        "followupKeys": [
+            "तु",
+            "म्हा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ह",
+        "followupKeys": [
+            "म",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ब",
+        "followupKeys": [
+            "का",
+            "जा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ब",
+        "followupKeys": [
+            "।",
+            "हू"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "प",
+        "followupKeys": [
+            "र",
+            "हीं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "चि",
+        "followupKeys": [
+            "र",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "म",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हिं",
+        "followupKeys": [
+            "मि",
+            "ता"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "मी",
+            "रा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "तु",
+        "followupKeys": [
+            "म्हा",
+            "रे"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "।",
+            "री"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "का",
+        "followupKeys": [
+            "जा",
+            "हृ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "हू",
+            "का"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "हीं",
+            "फ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "।",
+            "खा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "।",
+            "जू"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मि",
+        "followupKeys": [
+            "ता",
+            "ई"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मी",
+        "followupKeys": [
+            "रा",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म्हा",
+        "followupKeys": [
+            "रे",
+            "रा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "री",
+            "पू"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जा",
+        "followupKeys": [
+            "हृ",
+            "द"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हू",
+        "followupKeys": [
+            "का",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हीं",
+        "followupKeys": [
+            "फ",
+            "नि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "खा",
+            "को"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "जू",
+            "जो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ता",
+        "followupKeys": [
+            "ई",
+            "गो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रा",
+        "followupKeys": [
+            "र",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रे",
+        "followupKeys": [
+            "रा",
+            "मु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "री",
+        "followupKeys": [
+            "पू",
+            "ज"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हृ",
+        "followupKeys": [
+            "द",
+            "य"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "का",
+        "followupKeys": [
+            "ल",
+            "ने"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "फ",
+        "followupKeys": [
+            "नि",
+            "मनि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "खा",
+        "followupKeys": [
+            "को",
+            "क"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जू",
+        "followupKeys": [
+            "जो",
+            "ज"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ई",
+        "followupKeys": [
+            "गो",
+            "प"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "न",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रा",
+        "followupKeys": [
+            "मु",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "पू",
+        "followupKeys": [
+            "ज",
+            "हि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "द",
+        "followupKeys": [
+            "य",
+            "रा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "ने",
+            "मि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नि",
+        "followupKeys": [
+            "मनि",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "को",
+        "followupKeys": [
+            "क",
+            "रि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जो",
+        "followupKeys": [
+            "ज",
+            "ग"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "गो",
+        "followupKeys": [
+            "प",
+            "द"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "स",
+            "न्मु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मु",
+        "followupKeys": [
+            "ल",
+            "ख"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ज",
+        "followupKeys": [
+            "हि",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "य",
+        "followupKeys": [
+            "रा",
+            "खि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ने",
+        "followupKeys": [
+            "मि",
+            "जि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मनि",
+        "followupKeys": [
+            "स",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "क",
+        "followupKeys": [
+            "रि",
+            "त"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ज",
+        "followupKeys": [
+            "ग",
+            "जं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "प",
+        "followupKeys": [
+            "द",
+            "सिं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "न्मु",
+            "ख"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "ख",
+            "नु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हि",
+        "followupKeys": [
+            "म",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रा",
+        "followupKeys": [
+            "खि",
+            "को"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मि",
+        "followupKeys": [
+            "जि",
+            "मि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "म",
+            "निज"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रि",
+        "followupKeys": [
+            "त",
+            "र्क"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ग",
+        "followupKeys": [
+            "जं",
+            "ग"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "द",
+        "followupKeys": [
+            "सिं",
+            "धु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न्मु",
+        "followupKeys": [
+            "ख",
+            "ध"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ख",
+        "followupKeys": [
+            "नु",
+            "सु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "न",
+            "का"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "खि",
+        "followupKeys": [
+            "को",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जि",
+        "followupKeys": [
+            "मि",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "निज",
+            "गु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "त",
+        "followupKeys": [
+            "र्क",
+            "ब"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जं",
+        "followupKeys": [
+            "ग",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सिं",
+        "followupKeys": [
+            "धु",
+            "अ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ख",
+        "followupKeys": [
+            "ध",
+            "रि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नु",
+        "followupKeys": [
+            "सु",
+            "नि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "का",
+            "म"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "को",
+        "followupKeys": [
+            "स",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "मि",
+        "followupKeys": [
+            "र",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "निज",
+        "followupKeys": [
+            "गु",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र्क",
+        "followupKeys": [
+            "ब",
+            "ढ़"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ग",
+        "followupKeys": [
+            "म",
+            "ती"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "धु",
+        "followupKeys": [
+            "अ",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ध",
+        "followupKeys": [
+            "रि",
+            "क"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सु",
+        "followupKeys": [
+            "नि",
+            "भ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "का",
+        "followupKeys": [
+            "म",
+            "ना"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "ल",
+            "पु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "।",
+            "व"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "गु",
+        "followupKeys": [
+            "न",
+            "अ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ब",
+        "followupKeys": [
+            "ढ़",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "ती",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "अ",
+        "followupKeys": [
+            "न",
+            "ल"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रि",
+        "followupKeys": [
+            "क",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नि",
+        "followupKeys": [
+            "भ",
+            "ए"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म",
+        "followupKeys": [
+            "ना",
+            "तु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "पु",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "व",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "अ",
+            "नु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ढ़",
+        "followupKeys": [
+            "।",
+            "वै"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ती",
+        "followupKeys": [
+            "र",
+            "थ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "ल",
+            "सि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "क",
+        "followupKeys": [
+            "।",
+            "हु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "भ",
+        "followupKeys": [
+            "ए",
+            "सु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ना",
+        "followupKeys": [
+            "तु",
+            "म्हा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "पु",
+        "followupKeys": [
+            "र",
+            "रा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "व",
+        "followupKeys": [
+            "न",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "अ",
+        "followupKeys": [
+            "नु",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "वै",
+            "स"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "थ",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ल",
+        "followupKeys": [
+            "सि",
+            "त"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "हु",
+            "न"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ए",
+        "followupKeys": [
+            "सु",
+            "ख"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "तु",
+        "followupKeys": [
+            "म्हा",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "रा",
+            "ज"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "र",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "नु",
+        "followupKeys": [
+            "स",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "वै",
+        "followupKeys": [
+            "स",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "थ",
+        "followupKeys": [
+            "र",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सि",
+        "followupKeys": [
+            "त",
+            "ला"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हु",
+        "followupKeys": [
+            "न",
+            "धी"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "सु",
+        "followupKeys": [
+            "ख",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "म्हा",
+        "followupKeys": [
+            "।",
+            "री"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रा",
+        "followupKeys": [
+            "ज",
+            "।"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "।",
+            "हू"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "र",
+            "हीं"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "स",
+        "followupKeys": [
+            "।",
+            "खा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "।",
+            "जू"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "त",
+        "followupKeys": [
+            "ला",
+            "ई"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "न",
+        "followupKeys": [
+            "धी",
+            "रा"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ख",
+        "followupKeys": [
+            "।",
+            "रे"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "री",
+            "सु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ज",
+        "followupKeys": [
+            "।",
+            "प्र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "हू",
+            "उ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "र",
+        "followupKeys": [
+            "हीं",
+            "बि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "खा",
+            "हो"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "जू",
+            "मु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ला",
+        "followupKeys": [
+            "ई",
+            "ग"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "धी",
+        "followupKeys": [
+            "रा",
+            "ब"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "रे",
+            "सु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "री",
+        "followupKeys": [
+            "सु",
+            "नु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "।",
+        "followupKeys": [
+            "प्र",
+            "बि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हू",
+        "followupKeys": [
+            "उ",
+            "घ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "हीं",
+        "followupKeys": [
+            "बि",
+            "धि"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "खा",
+        "followupKeys": [
+            "हो",
+            "इ"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "जू",
+        "followupKeys": [
+            "मु",
+            "द"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "ई",
+        "followupKeys": [
+            "ग",
+            "र"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रा",
+        "followupKeys": [
+            "ब",
+            "रु"
+        ],
+        "shlokaId": "3"
+    },
+    {
+        "key": "रे",
+        "followupKeys": [
+            "सु",
+            "फ"
+        ],
+        "shlokaId": "3"
     }
 ]
