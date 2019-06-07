@@ -63,12 +63,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func displayAkshar(){
         let first: String = tableCharacters[ pickerNumber % tableCharacters.count]["key"] as! String
         var followupKeys: Array<String> = tableCharacters[ pickerNumber % tableCharacters.count]["followupKeys"] as! Array<String>
-        pickedCharLabel.text = String(format: "आपके अक्षर हैं %@ %@ %@ ", first, followupKeys[0], followupKeys[1])
+        pickedCharLabel.text = String(format: "आपके अक्षर हैं: %@ %@ %@ ", first, followupKeys[0], followupKeys[1])
         pickedCharLabel.isHidden = false
     }
     
     @objc public func movePicker(){
-        pickerNumber = pickerNumber + Int.random(in: 0 ..< 10)
+        pickerNumber = pickerNumber + Int.random(in: 0 ..< 100)
         _ = tableCharacters[pickerNumber % tableCharacters.count]["key"] as! String
         pickerView.selectRow(pickerNumber, inComponent: 0, animated: true)
     }
