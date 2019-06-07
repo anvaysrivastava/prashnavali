@@ -84,7 +84,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
         
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 25, height: 20))
         label.text = tableCharacters[row % tableCharacters.count]["key"] as? String
         label.textAlignment = NSTextAlignment.center
         label.transform = CGAffineTransform(rotationAngle: -1*rotation)
