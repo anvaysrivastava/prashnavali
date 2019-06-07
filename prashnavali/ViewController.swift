@@ -11,11 +11,14 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-
-    
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var pickedCharLabel: UILabel!
+    @IBOutlet weak var shlokaDescription: UILabel!
+    @IBOutlet weak var shloka1: UILabel!
+    @IBOutlet weak var shloka2: UILabel!
+    @IBOutlet weak var conclusionDescription: UILabel!
+    @IBOutlet weak var conclusionLabel: UILabel!
     
     var shlokas: Array<AnyObject>!
     var rotation: CGFloat = CGFloat(-90 * (Double.pi/180))
@@ -73,6 +76,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         // Init logic
         pickedCharLabel.isHidden = true
+        shlokaDescription.isHidden = true
+        shloka1.isHidden = true
+        shloka2.isHidden = true
+        conclusionDescription.isHidden = true
+        conclusionLabel.isHidden = true
         
         // Setup horizontal pickerView
         let frame = pickerView.frame
