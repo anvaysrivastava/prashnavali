@@ -19,6 +19,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var shloka2: UILabel!
     @IBOutlet weak var conclusionDescription: UILabel!
     @IBOutlet weak var conclusionLabel: UILabel!
+    @IBOutlet weak var pickerWrapperView: UIView!
     
     var tableCharacters: Array<AnyObject>!
     var shlokas: AnyObject!
@@ -104,10 +105,9 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         conclusionLabel.isHidden = true
         
         // Setup horizontal pickerView
-        let frame = pickerView.frame
         
         pickerView.transform = CGAffineTransform(rotationAngle: rotation)
-        pickerView.frame = frame
+        pickerView.frame = CGRect(x: 0, y: 0, width: pickerWrapperView.frame.width, height: pickerWrapperView.frame.height)
         
         //Fetch data
         if let path = Bundle.main.path(forResource: "table", ofType: "json") {
