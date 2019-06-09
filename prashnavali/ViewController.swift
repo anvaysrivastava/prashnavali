@@ -24,7 +24,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     var tableCharacters: Array<AnyObject>!
     var shlokas: AnyObject!
     var rotation: CGFloat = CGFloat(-90 * (Double.pi/180))
-    var isRotationOn = false
+    var isRotationOn = true
     var pickerNumber = 1
     var timer : Timer = Timer()
     //Properties for Start button
@@ -131,6 +131,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             } catch {
                 // handle error
             }
+        }
+        
+        //Start the picker
+        if(isRotationOn) {
+            timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(movePicker), userInfo: nil, repeats: true)
         }
     }
 }
