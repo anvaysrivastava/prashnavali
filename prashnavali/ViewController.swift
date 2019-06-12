@@ -31,7 +31,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBAction func startButtonPressed(_ sender: Any) {
         if(isRotationOn){
             isRotationOn = false
-            startButton.setTitle("शुरूवात करें।", for: UIControl.State.normal)
+            startButton.setTitle("आरम्भ करें।", for: UIControl.State.normal)
             timer.invalidate()
             displayAkshar()
             displayShloka(shlokaId: tableCharacters[ pickerNumber % tableCharacters.count]["shlokaId"] as! String)
